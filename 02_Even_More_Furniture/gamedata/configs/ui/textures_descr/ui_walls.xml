@@ -1,0 +1,10 @@
+<w>
+	<file name="ui\ui_walls">
+		<texture id="ui_decor_wall" x="500" y="1500" width="300" height="100" />
+		<texture id="ui_decor_wall_metal" x="500" y="1600" width="300" height="100" />
+		<texture id="ui_decor_wall02" x="1100" y="1500" width="300" height="100" />
+		<texture id="ui_decor_wall02_metal" x="1000" y="1600" width="300" height="100" />
+		<texture id="ui_decor_wall_doorway" x="800" y="1500" width="300" height="100" />
+		<texture id="ui_decor_wall_doorway_metal" x="880" y="1600" width="300" height="100" />
+	</file>
+</w>

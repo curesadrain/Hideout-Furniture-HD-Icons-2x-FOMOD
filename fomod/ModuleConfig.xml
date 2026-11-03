@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd">
+    <moduleName>Hideout Furniture - 2x HD Icons Framework</moduleName>
+    <moduleImage path="fomod/images/banner.png" />
+    <requiredInstallFiles>
+        <folder source="00_Core/gamedata" destination="gamedata" priority="0" />
+    </requiredInstallFiles>
+    <installSteps order="Explicit">
+        <installStep name="Additional Hideout Furniture Addons">
+            <optionalFileGroups order="Explicit">
+                <group name="Select Installed Hideout Furniture Addons (Core HD Icons are installed automatically)" type="SelectAny">
+                    <plugins order="Explicit">
+                        <plugin name="349 - Hideout Furniture Expansion (Maid &amp; HarukaSai)">
+                            <description>Installs 2x HD icons (ui_maid_efp_props.dds, ui_rottenmeat.dds), scaled UI texture descriptors, and DLTX patches for all 33 items in Hideout Furniture Expansion by Maid &amp; HarukaSai.</description>
+                            <image path="fomod/images/01_expansion.png" />
+                            <files>
+                                <folder source="01_Expansion/gamedata" destination="gamedata" priority="1" />
+                            </files>
+                            <typeDescriptor>
+                                <type name="Recommended" />
+                            </typeDescriptor>
+                        </plugin>
+                        <plugin name="385 - Even More Hideout Furnitures (facelessez)">
+                            <description>Installs 2x HD icons (ui_decor.dds, ui_doors.dds), scaled UI texture descriptors, and DLTX patches for all 105 items (walls, doors, rugs, posters, cabinets, artifacts displays, and decor) in Even More Hideout Furnitures by facelessez.</description>
+                            <image path="fomod/images/02_even_more_furniture.png" />
+                            <files>
+                                <folder source="02_Even_More_Furniture/gamedata" destination="gamedata" priority="2" />
+                            </files>
+                            <typeDescriptor>
+                                <type name="Recommended" />
+                            </typeDescriptor>
+                        </plugin>
+                        <plugin name="470 - Gadgets for Hideout Furniture (DoktorDauerfeuer)">
+                            <description>Installs 2x HD icons (ui_gadgets_hf.dds) and DLTX patches for all 6 items (Alarm System, Rifle &amp; Pistol Pegboards, Headgear Display, Artifact Harvester, and self-contained Trading Computer icon) in Gadgets for Hideout Furniture by DoktorDauerfeuer.</description>
+                            <image path="fomod/images/03_gadgets.png" />
+                            <files>
+                                <folder source="03_Gadgets/gamedata" destination="gamedata" priority="3" />
+                            </files>
+                            <typeDescriptor>
+                                <type name="Recommended" />
+                            </typeDescriptor>
+                        </plugin>
+                        <plugin name="473 - Hideout Cat for Hideout Furniture (DoktorDauerfeuer)">
+                            <description>Installs 2x HD icons (ui_icon_hideout_cat.dds) and DLTX patches for both items (Hideout Cat and Hideout Cat Bed) in Hideout Cat for Hideout Furniture by DoktorDauerfeuer.</description>
+                            <image path="fomod/images/04_hideout_cat.png" />
+                            <files>
+                                <folder source="04_Hideout_Cat/gamedata" destination="gamedata" priority="4" />
+                            </files>
+                            <typeDescriptor>
+                                <type name="Recommended" />
+                            </typeDescriptor>
+                        </plugin>
+                    </plugins>
+                </group>
+            </optionalFileGroups>
+        </installStep>
+    </installSteps>
+</config>

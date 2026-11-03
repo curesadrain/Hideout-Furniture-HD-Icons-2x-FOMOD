@@ -1,0 +1,9 @@
+<w>
+	<file name="ui\ui_doors">
+		<texture id="ui_decor_door" x="200" y="0" width="200" height="300" />
+		<texture id="ui_decor_door02" x="0" y="0" width="200" height="300" />
+		<texture id="ui_decor_door03" x="400" y="0" width="200" height="300" />
+		<texture id="ui_decor_door04" x="600" y="0" width="200" height="300" />
+		<texture id="ui_decor_door05" x="800" y="0" width="200" height="300" />
+	</file>
+</w>
